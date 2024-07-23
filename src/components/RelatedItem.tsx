@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import g92 from "../../public/assets/g92-2-500x500 1.png";
 
 const RelatedItem = () => {
   const datas = [
     {
-      img: require("../../public/assets/g92-2-500x500 1.png"),
+      img: g92,
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 2,
