@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import g92 from "../../public/assets/g92-2-500x500 1.png";
+import image57 from "../../public/assets/image 57.png";
+import g27cq4 from "../../public/assets/g27cq4-500x500 1.png";
+import ak900 from "../../public/assets/ak-900-01-500x500 1.png";
 
 const RelatedItem = () => {
   const datas = [
@@ -13,7 +16,7 @@ const RelatedItem = () => {
       sale: "40%",
     },
     {
-      img: "../../public/assets/image 57.png",
+      img: image57,
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 5,
@@ -21,7 +24,7 @@ const RelatedItem = () => {
       sale: "40%",
     },
     {
-      img: "../../public/assets/g27cq4-500x500 1.png",
+      img: g27cq4,
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 3,
@@ -29,7 +32,7 @@ const RelatedItem = () => {
       sale: "40%",
     },
     {
-      img: "../../public/assets/ak-900-01-500x500 1.png",
+      img: ak900,
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 4,
@@ -37,7 +40,7 @@ const RelatedItem = () => {
       sale: "40%",
     },
     {
-      img: "../../public/assets/g27cq4-500x500 1.png",
+      img: image57,
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 1,

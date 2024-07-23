@@ -7,6 +7,10 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import Component2 from "../../public/assets/Component 2.png";
+import hart from "../../public/assets/hart.png";
+import user from "../../public/assets/user.png";
+import Cart1 from "../../public/assets/assets/Cart1 with buy.png";
 const Nav = () => {
   return (
     <nav className="flex flex-col">
@@ -37,20 +41,20 @@ const Nav = () => {
             placeholder="What are you looking for?"
           />
           <button>
-            <img src="../../public/assets/Component 2.png" alt="Why is not show cheek my src" />
+            <img src={Component2} alt="Why is not show cheek my src" />
           </button>{" "}
         </label>{" "}
         <div className="flex gap-2 items-center">
           <button>
-            <img src="../../public/assets/hart.png" alt="" />
+            <img src={hart} alt="" />
           </button>
           <button>
             {" "}
-            <img src="../../public/assets/user.png" alt="" />
+            <img src={user} alt="" />
           </button>
           <button>
             {" "}
-            <img src="../../public/assets/assets/Cart1 with buy.png" alt="" />
+            <img src={Cart1} alt="" />
           </button>
         </div>
       </div>
