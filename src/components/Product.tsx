@@ -8,34 +8,35 @@ import TruckIcon from "@/components/icons/truckIcon";
 import RefreshIcon from "@/components/icons/refreshIcon";
 import { useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import image57 from "../../public/assets/image 57.png";
+import image58 from "../../public/assets/image 58.png";
+import image59 from "../../public/assets/image 59.png";
+import image61 from "../../public/assets/image 61.png";
+import image63 from "../../public/assets/image 63.png";
 const Product = () => {
   const [quantity, setQuantity] = useState<number>(1);
   const [favorite, setFavorite] = useState<boolean>(false);
   const sizes = ["XS", "S", "M", "L", "XL"];
   const [rating, setRating] = useState(4);
   return (
-    <section className="flex flex-wrap gap-5 justify-center mx-auto w-5/6 md:justify-between">
+    <section className="flex flex-wrap gap-5 justify-center py-10 mx-auto w-5/6 md:justify-between">
       <div className="flex flex-col gap-3 justify-center items-center image">
         <button>
-          <img src="./src/assets/image 57.png" alt="" />
+          <img src={image57} alt="image57" />
         </button>
         <button>
-          <img src="./src/assets/image 58.png" alt="" />
+          <img src={image58} alt="image58" />
         </button>
         <button>
-          <img src="./src/assets/image 59.png" alt="" />
+          <img src={image59} alt="image59" />
         </button>
         <button>
-          <img src="./src/assets/image 61.png" alt="" />
+          <img src={image61} alt="image61" />
         </button>
       </div>
       <div>
-        <button className="bg-[#eee] rounded-md p-5 h-full">
-          <img
-            className=" md:min-w-[446px] md:min-h-[313px]"
-            src="./src/assets/image 63.png"
-            alt=""
-          />
+        <button className="bg-[#eee] w-full flex-1 rounded-md p-5 h-full">
+          <img className=" md:min-w-[446px] md:min-h-[313px]" src={image63} alt="image63" />
         </button>
       </div>
       <div className="flex flex-col md:w-[473px] gap-3 text-start">

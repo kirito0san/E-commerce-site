@@ -37,20 +37,20 @@ const Nav = () => {
             placeholder="What are you looking for?"
           />
           <button>
-            <img src="./src/assets/Component 2.png" alt="Why is not show cheek my src" />
+            <img src="../../public/assets/Component 2.png" alt="Why is not show cheek my src" />
           </button>{" "}
         </label>{" "}
         <div className="flex gap-2 items-center">
           <button>
-            <img src="./src/assets/hart.png" alt="" />
+            <img src="../../public/assets/hart.png" alt="" />
           </button>
           <button>
             {" "}
-            <img src="./src/assets/user.png" alt="" />
+            <img src="../../public/assets/user.png" alt="" />
           </button>
           <button>
             {" "}
-            <img src="./src/assets/Cart1 with buy.png" alt="" />
+            <img src="../../public/assets/assets/Cart1 with buy.png" alt="" />
           </button>
         </div>
       </div>
