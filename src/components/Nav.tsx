@@ -10,7 +10,7 @@ import {
 import Component2 from "../../public/assets/Component 2.png";
 import hart from "../../public/assets/hart.png";
 import user from "../../public/assets/user.png";
-import Cart1 from "../../public/assets/assets/Cart1 with buy.png";
+import Cart1 from "../../public/assets/assets/Cart1.png";
 const Nav = () => {
   return (
     <nav className="flex flex-col">
