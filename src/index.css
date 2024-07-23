@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply p-0 m-0 max-w-none;
+}
+nav ul li {
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-sm font-normal;
+}
+.image button {
+  @apply bg-[#eee] p-2 h-full;
+}
+.image button img {
+  @apply min-w-[112px] rounded-md w-[112px];
+}
+footer h2 {
+  @apply pb-5;
+}
+footer p {
+  @apply text-sm;
+}
+.rating > span:hover::before {
+  @apply content-["\2605"] absolute;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover::before,
+.rating > span:hover ~ span::before {
+  @apply cursor-pointer content-["\2605"]  absolute text-yellow-300;
+}
+.rating > span {
+  @apply inline-block relative text-2xl w-[1.1em];
+}
+.rating > span:hover::before,
+.rating > span:hover ~ span::before {
+  @apply content-["\2605"] absolute;
+}
+button:has(span[data-state="checked"] svg) {
+  @apply text-transparent !outline-black !outline !outline-1;
+}
+.ActiveBtn {
+  @apply text-white bg-red-500;
+}
