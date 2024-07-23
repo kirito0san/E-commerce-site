@@ -22,21 +22,25 @@ const Product = () => {
     <section className="flex flex-wrap gap-5 justify-center py-10 mx-auto w-5/6 md:justify-between">
       <div className="flex flex-col gap-3 justify-center items-center image">
         <button>
-          <img src={image57} alt="image57" />
+          <img src="./src/assets/image 57.png" alt="" />
         </button>
         <button>
-          <img src={image58} alt="image58" />
+          <img src="./src/assets/image 58.png" alt="" />
         </button>
         <button>
-          <img src={image59} alt="image59" />
+          <img src="./src/assets/image 59.png" alt="" />
         </button>
         <button>
-          <img src={image61} alt="image61" />
+          <img src="./src/assets/image 61.png" alt="" />
         </button>
       </div>
       <div>
-        <button className="bg-[#eee] w-full flex-1 rounded-md p-5 h-full">
-          <img className=" md:min-w-[446px] md:min-h-[313px]" src={image63} alt="image63" />
+        <button className="bg-[#eee] rounded-md p-5 h-full">
+          <img
+            className=" md:min-w-[446px] md:min-h-[313px]"
+            src="./src/assets/image 63.png"
+            alt=""
+          />
         </button>
       </div>
       <div className="flex flex-col md:w-[473px] gap-3 text-start">

@@ -13,32 +13,40 @@ const RelatedItem = () => {
     },
     {
       img: "../../public/assets/image 57.png",
+      img: "../../public/assets/image 57.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
+      rating: 5,
       rating: 5,
       price: "$192",
       sale: "40%",
     },
     {
       img: "../../public/assets/g27cq4-500x500 1.png",
+      img: "../../public/assets/g27cq4-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
+      rating: 3,
       rating: 3,
       price: "$192",
       sale: "40%",
     },
     {
       img: "../../public/assets/ak-900-01-500x500 1.png",
+      img: "../../public/assets/ak-900-01-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
+      rating: 4,
       rating: 4,
       price: "$192",
       sale: "40%",
     },
     {
       img: "../../public/assets/g27cq4-500x500 1.png",
+      img: "../../public/assets/g27cq4-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
+      rating: 1,
       rating: 1,
       price: "$192",
       sale: "40%",
@@ -64,6 +72,8 @@ const RelatedItem = () => {
         {products.map((e, i) => {
           return (
             <div className="rounded-md" key={i}>
+              <div className="bg-[#eee] rounded-md p-2">
+                <img className="w-[172px] h-[152px]" src={e.img} alt="" />
               <div className="bg-[#eee] rounded-md p-2">
                 <img className="w-[172px] h-[152px]" src={e.img} alt="" />
               </div>
