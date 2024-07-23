@@ -3,7 +3,7 @@ import { Rating } from "@smastrom/react-rating";
 const RelatedItem = () => {
   const datas = [
     {
-      img: "./src/assets/g92-2-500x500 1.png",
+      img: "../../public/assets/g92-2-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
       rating: 2,
@@ -11,34 +11,34 @@ const RelatedItem = () => {
       sale: "40%",
     },
     {
-      img: "./src/assets/g92-2-500x500 1.png",
+      img: "../../public/assets/image 57.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
-      rating: 2,
+      rating: 5,
       price: "$192",
       sale: "40%",
     },
     {
-      img: "./src/assets/g92-2-500x500 1.png",
+      img: "../../public/assets/g27cq4-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
-      rating: 2,
+      rating: 3,
       price: "$192",
       sale: "40%",
     },
     {
-      img: "./src/assets/g92-2-500x500 1.png",
+      img: "../../public/assets/ak-900-01-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
-      rating: 2,
+      rating: 4,
       price: "$192",
       sale: "40%",
     },
     {
-      img: "./src/assets/g92-2-500x500 1.png",
+      img: "../../public/assets/g27cq4-500x500 1.png",
       newPrice: "$160",
       name: "Havic HV G-92 Gamepad",
-      rating: 2,
+      rating: 1,
       price: "$192",
       sale: "40%",
     },
@@ -63,8 +63,8 @@ const RelatedItem = () => {
         {products.map((e, i) => {
           return (
             <div className="rounded-md" key={i}>
-              <div className="bg-[#eee] p-2">
-                <img src={e.img} alt="" />
+              <div className="bg-[#eee] rounded-md p-2">
+                <img className="w-[172px] h-[152px]" src={e.img} alt="" />
               </div>
               <p>{e.name}</p>
               <div className="flex gap-3">

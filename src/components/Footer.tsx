@@ -48,10 +48,22 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-8">
-            <FbIcon />
-            <TwIcon />
-            <IgIcon />
-            <InIcon />
+            <a href="/">
+              {" "}
+              <FbIcon />
+            </a>
+            <a href="/">
+              {" "}
+              <TwIcon />
+            </a>
+            <a href="/">
+              {" "}
+              <IgIcon />
+            </a>
+            <a href="/">
+              {" "}
+              <InIcon />
+            </a>
           </div>
         </div>
       </div>
